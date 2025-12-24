@@ -1,0 +1,7 @@
+name: FaweUpdater
+version: 1.0
+folia-supported: true
+main: com.trassert.FAWEUpdater
+api-version: 1.21
+author: trassert
+description: Плагин, позволяющий обновлять FAWE автоматически
