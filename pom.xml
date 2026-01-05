@@ -3,8 +3,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.trassert</groupId>
-    <artifactId>Fawe-updater</artifactId>
-    <version>1.1.0</version>
+    <artifactId>FAWEUpdater</artifactId>
+    <version>1.1.1</version>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
@@ -36,8 +36,14 @@
                     <include>plugin.yml</include>
                 </includes>
             </resource>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>false</filtering>
+                <excludes>
+                    <exclude>plugin.yml</exclude>
+                </excludes>
+            </resource>
         </resources>
-
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
