@@ -31,17 +31,6 @@ public final class FAWEUpdater extends JavaPlugin {
         }
 
         System.setProperty("jdk.http.auth.tunneling.disabledSchemes", "");
-
-        new BukkitRunnable() {
-            @Override
-            public void run() {
-                try {
-                    doUpdate();
-                } catch (Exception e) {
-                    getLogger().log(Level.SEVERE, "Ошибка обновления FAWE", e);
-                }
-            }
-        }.runTaskAsynchronously(this);
     }
 
     private void doUpdate() throws Exception {
@@ -403,4 +392,18 @@ public final class FAWEUpdater extends JavaPlugin {
             this.relativePath = r;
         }
     }
+
+    @Override
+    public void onDisable() {
+        if (!getConfig().getBoolean("enabled", true)) {
+            return;
+        }
+
+        try {
+            doUpdate();
+        } catch (Exception e) {
+            getLogger().log(Level.SEVERE, "Ошибка обновления FAWE при выключении", e);
+        }
+    }
+
 }
