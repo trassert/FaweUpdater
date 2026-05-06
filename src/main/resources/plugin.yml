@@ -2,6 +2,6 @@ name: FaweUpdater
 version: ${project.version}
 folia-supported: true
 main: com.trassert.FAWEUpdater
-api-version: '1.21.11'
+api-version: "26.1.2"
 author: trassert
 description: Плагин, позволяющий обновлять FAWE автоматически
