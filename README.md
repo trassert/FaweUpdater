@@ -1,5 +1,7 @@
 ### Does it annoy you too that Fawe is updated almost daily?
 
+![Platform](https://img.shields.io/badge/Platform-Paper%20%7C%20Spigot-blue?style=for-the-badge&logo=spigotmc)
+
 I present to you my lightweight plugin that allows you to automatically download **FAWE** from jerkins and unpack it to the desired location (updates by default).
 
 Builded for the [**Luminto**](https://t.me/lumintoch) project.
