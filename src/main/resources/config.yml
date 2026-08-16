@@ -3,18 +3,16 @@ enabled: true
 jenkins:
   baseUrl: "https://ci.athion.net"
   jobPath: "/job/FastAsyncWorldEdit"
-  build: "lastSuccessfulBuild"   # можно: lastStableBuild и т.п.
+  build: "lastSuccessfulBuild"
 
 artifact:
   prefix: "FastAsyncWorldEdit-Paper"
   suffix: ".jar"
 
 target:
-  # Если пусто — попробует сам найти установленный jar в папке plugins
-  # Пример: "FastAsyncWorldEdit.jar"
   jarName: "FastAsyncWorldEdit.jar"
-  # true: скачивает в plugins/update/<jarName> (рекомендуется)
-  # false: скачивает прямо в plugins/<jarName>
+  # true - plugins/update/<jarName> (recommended)
+  # false - plugins/<jarName>
   useUpdateFolder: true
 
 network:
