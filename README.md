@@ -1,6 +1,10 @@
 # FaweUpdater
 
-![Platform](https://img.shields.io/badge/Platform-Paper%20%7C%20Spigot-blue?style=for-the-badge&logo=spigotmc)
+<p align="center">
+<a href=https://t.me/lumintoch><img src=https://img.shields.io/badge/Sponsored%20by-Luminto-purple?style=for-the-badge&logo=githubsponsors&logoColor=white></a>
+<img src="https://img.shields.io/badge/Paper-blue?style=for-the-badge&logo=spigotmc&logoColor=white&logoSize=auto" alt="Badge">
+<img src="https://img.shields.io/badge/Java-orange?style=for-the-badge&logo=openjdk&logoSize=auto" alt="Badge">
+</p>
 
 ### Does it annoy you too that Fawe is updated almost daily?
 
