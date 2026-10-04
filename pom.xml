@@ -4,7 +4,7 @@
 
     <groupId>com.trassert</groupId>
     <artifactId>FAWEUpdater</artifactId>
-    <version>1.4.0</version>
+    <version>1.4.1</version>
 
     <properties>
         <maven.compiler.source>25</maven.compiler.source>
