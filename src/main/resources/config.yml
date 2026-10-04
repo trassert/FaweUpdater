@@ -21,6 +21,7 @@ network:
   maxRedirects: 5
 
 proxy:
+  # Proxy settings for network requests (http)
   enabled: false
   host: "127.0.0.1"
   port: 8000
